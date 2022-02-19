@@ -33,12 +33,13 @@ header>ul>li>a
     position: absolute;
     top: 20px;
     right: 20px;
-    background-color: rgb(9, 243, 9);
+    background-color: palevioletred;
 }
 .ul>li>a
 {
     color: rgb(41, 34, 34);
     font-size: large;
+    font-weight: normal;
 }
 .ul>li
 {
@@ -50,8 +51,9 @@ header>ul>li>a
 }
 .ul>li>a:hover
 {
-    color: rgb(228, 38, 38);
-    font-size: medium;
+    color: rgb(230, 89, 89);
+    font-size: larger;
+    font-weight: bold;
 }
 
 header>img
