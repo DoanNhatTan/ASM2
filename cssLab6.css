@@ -1,0 +1,180 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+}
+header
+{
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid red;
+    height: 350px;
+    min-width: 100%;
+    background-color: yellowgreen;
+    position: relative;
+   
+}
+header>ul
+{
+    border: 1px solid ;
+    border-radius:5px;
+    
+}
+header>ul>li>a
+{
+    font-size: medium;
+    padding-left: 30px;
+}
+.ul
+{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: rgb(9, 243, 9);
+}
+.ul>li>a
+{
+    color: rgb(41, 34, 34);
+    font-size: large;
+}
+.ul>li
+{
+    float: left;
+}
+.ul>li:hover
+{
+    background-color: yellow;
+}
+.ul>li>a:hover
+{
+    color: rgb(228, 38, 38);
+    font-size: medium;
+}
+
+header>img
+{
+    min-width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+.menu>ul>li {
+    display: inline-block;
+    position: relative;
+}
+
+.menu>ul>li>a{
+    display: block;
+    text-decoration: none;
+    font-size: large;
+    font-variant: small-caps;
+    color: rgb(54, 50, 50);
+    padding: 0 10px;
+    line-height: 40px;
+}
+.menu>ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    background-color: rgb(171, 221, 221);
+    text-align: center;
+}
+.menu>ul>li>a:hover{
+    color: yellow;
+}
+.menu ul ul{
+    position: absolute;
+    display: none;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    width: 200px;
+    background-color: white;
+    box-shadow: 0 0 1px gray;
+}
+.menu>ul>li:hover>ul{
+    display: block;
+}
+.menu ul ul a{
+    display: block;
+    line-height: 30px;
+    color: rgb(54, 50, 50);
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: large;
+    padding: 0 10px;
+    text-align: left;
+}
+.menu ul ul a:hover
+{
+    background-color: rgb(171, 221, 221);
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+article
+{
+    clear: both;
+    background-color: white;
+    float: left;
+    width: 80%;
+    height: 700px;
+
+}
+aside
+{
+    background-color: azure;
+    width: 20%;
+    float: left;
+    height: 700px;
+}
+aside>ul
+{
+    list-style-type: square;
+}
+
+
+.vmenu
+{
+    padding: 0px;
+    margin: 0px;
+    border-radius: 3px;
+    box-shadow: 0 0 2px gray;
+}
+.vmenu>ul>li>a
+{
+    font-variant: small-caps;
+    color: orangered;
+    font-size: larger;
+}
+.vmenu>ul :hover
+{
+    background-color:white;
+    color: orangered;
+    font-weight: bold;
+}
+footer
+{
+    clear: both;
+    background-color: lavender;
+    height: 130px;
+    padding: 1px;
+    margin: 1px;
+}
